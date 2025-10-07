@@ -1,0 +1,2 @@
+192.168.56.11 dev enp0s3 lladdr 08:00:27:13:61:a0 STALE
+fe80::2 dev enp0s3  FAILED

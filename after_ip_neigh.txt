@@ -1,0 +1,2 @@
+192.168.56.11 dev enp0s3 lladdr aa:bb:cc:dd:ee:ff PERMANENT
+fe80::2 dev enp0s3  FAILED
