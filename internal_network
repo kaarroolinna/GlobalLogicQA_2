@@ -1,0 +1,12 @@
+VM1  
+sudo ip addr add 192.168.56.10/24 dev enp0s3  
+sudo ip link set enp0s3 up  
+ip addr show enp0s3  
+VM2  
+sudo ip addr add 192.168.56.11/24 dev enp0s3  
+sudo ip link set enp0s3 up  
+ip addr show enp0s3  
+VM1  
+ping -c 3 192.168.56.11  
+sudo arp -d 192.168.56.11  
+arp -a  
